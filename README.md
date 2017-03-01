@@ -1,4 +1,5 @@
-# Studies for the ass
+# Assesment Phase 1 - DBC
+
 
 ## Enumerables
 
@@ -86,7 +87,7 @@ There are two steps in creating an object. First, we define a class. A class is 
 
 ## Nested Data Structures
 
-1) ** Convert a Nested Array of Table Data to a Hash **
+1) **Convert a Nested Array of Table Data to a Hash**
 
 ```
 def convert_table (array)
