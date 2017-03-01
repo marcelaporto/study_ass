@@ -34,7 +34,7 @@ numbers.reject { |number| number.even? }
 # => [1, 5, 3]
 ```
 
-3) #map
+3) **#map**
 
 Another common task is transforming items into something based on the items. Ruby provides the #map method to help with this task. The method returns a new array. The new array contains the transformed version of each of the original items. The block passed to the method describes how to perform the transformation.
 
@@ -74,8 +74,10 @@ end
 
 ## OOP
 
-The basic programming concepts in OOP are four: The abstraction is simplifying complex reality by modeling classes appropriate to the problem. The polymorphism is the process of using an operator or function in different ways for different data input. The encapsulation hides the implementation details of a class from other objects. The inheritance is a way to form new classes using classes that have already been defined.
-Objects are basic building blocks of a Ruby OOP program. An object is a combination of data and methods.  These objects communicate together through methods. Each object can receive messages, send messages and process data.
+The basic programming concepts in OOP are four: The **abstraction** is simplifying complex reality by modeling classes appropriate to the problem. The **polymorphism** is the process of using an operator or function in different ways for different data input. The encapsulation hides the implementation details of a class from other objects. The **inheritance** is a way to form new classes using classes that have already been defined.
+Objects are basic building blocks of a Ruby OOP program. 
+
+An object is a combination of data and methods.  These objects communicate together through methods. Each object can receive messages, send messages and process data.
 
 There are two steps in creating an object. First, we define a class. A class is a template for an object. It is a blueprint that describes the state and behavior that the objects of the class all share. A class can be used to create many objects. Objects created at runtime from a class are called instances of that particular class.
 
